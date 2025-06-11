@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>blog card</title>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    body,
+    html {
+        height: 100vh;
+        font-size: 16px;
+        background-color: #F9FAFB;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 30px;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .description {
+        width: 700px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 1.25rem;
+        color: #6C727F;
+    }
+
+    .login-box {
+        width: 520px;
+        height: 200px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px #E5E7EB;
+        margin: 100px auto;
+    }
+
+    input {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #E5E7EB;
+        background-color: #F9FAFB;
+        color: #6C727F;
+        padding-left: 20px;
+        margin: 26px auto;
+        margin-left: 5%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    button {
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: #284BCE;
+        color: white;
+        font-size: 1rem;
+        margin-left: 5%;
+        cursor: pointer;
+    }
+
+    .bottom-text {
+        text-align: center;
+        font-size: 0.875rem;
+        color: #6C727F;
+        margin-top: 13px;
+    }
+</style>
+
+<body>
+    <div class="image-container">
+        <img src="logo.svg" alt="logo">
+    </div>
+    <div>
+        <h1>Join our newsletter</h1>
+        <p class="description">Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every
+            week, so stay tuned to snag the hottest items just for you.</p>
+    </div>
+    <div class="login-box">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe now</button>
+        <p class="bottom-text">Your email is 100% confidential and won’t send you any spam.</p>
+    </div>
+</body>
+
+</html>
